@@ -13,7 +13,7 @@
 	<meta property="og:title" content={siteMetadata.ogTitle} />
 	<meta property="og:description" content={siteMetadata.ogDescription} />
 	<meta property="og:type" content="website" />
-	<meta name="theme-color" content="#f15a29" />
+	<meta name="theme-color" content="#2f9e5f" />
 	<link rel="icon" href={favicon} />
 </svelte:head>
 

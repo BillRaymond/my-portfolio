@@ -1,19 +1,19 @@
 @import 'tailwindcss';
 
 :root {
-	--bg: #fff7ec;
+	--bg: #f3fbf4;
 	--bg-deep: #19142a;
-	--surface: rgba(255, 250, 242, 0.82);
-	--surface-plain: #fff7ec;
+	--surface: rgba(247, 254, 248, 0.82);
+	--surface-plain: #f3fbf4;
 	--surface-strong: #241b3d;
 	--text-strong: #181220;
 	--text-soft: #3c2f4f;
 	--text-muted: #65596f;
 	--border-soft: rgba(36, 27, 61, 0.12);
 	--border-strong: rgba(36, 27, 61, 0.24);
-	--accent-coral: #f15a29;
-	--accent-gold: #f2a33c;
-	--accent-ink: #8d3f2d;
+	--accent-coral: #2f9e5f;
+	--accent-gold: #8ccf7a;
+	--accent-ink: #256046;
 	--shadow-panel: 0 22px 70px rgba(25, 20, 42, 0.12);
 	--shadow-soft: 0 16px 44px rgba(25, 20, 42, 0.08);
 	--font-display: 'Fraunces', 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', Georgia,
@@ -29,9 +29,9 @@ html {
 body {
 	min-height: 100vh;
 	background:
-		radial-gradient(circle at top left, rgba(242, 163, 60, 0.22), transparent 28%),
-		radial-gradient(circle at top right, rgba(241, 90, 41, 0.18), transparent 24%),
-		linear-gradient(180deg, #fff9f0 0%, #fff4e6 45%, #fff7ec 100%);
+		radial-gradient(circle at top left, rgba(140, 207, 122, 0.22), transparent 28%),
+		radial-gradient(circle at top right, rgba(47, 158, 95, 0.18), transparent 24%),
+		linear-gradient(180deg, #f8fdf7 0%, #eef8ee 45%, #f3fbf4 100%);
 	color: var(--text-strong);
 	font-family: var(--font-body);
 }
@@ -41,7 +41,7 @@ a {
 }
 
 ::selection {
-	background: rgba(241, 90, 41, 0.2);
+	background: rgba(47, 158, 95, 0.2);
 }
 
 .portfolio-shell {
@@ -54,8 +54,8 @@ a {
 	inset: 0;
 	pointer-events: none;
 	background:
-		radial-gradient(circle at 15% 18%, rgba(242, 163, 60, 0.22), transparent 18%),
-		radial-gradient(circle at 84% 12%, rgba(241, 90, 41, 0.16), transparent 20%),
+		radial-gradient(circle at 15% 18%, rgba(140, 207, 122, 0.22), transparent 18%),
+		radial-gradient(circle at 84% 12%, rgba(47, 158, 95, 0.16), transparent 20%),
 		radial-gradient(circle at 80% 76%, rgba(98, 73, 130, 0.12), transparent 24%);
 }
 
@@ -85,7 +85,7 @@ a {
 	justify-content: center;
 	border: 1px solid var(--border-strong);
 	border-radius: 999px;
-	background: rgba(255, 247, 236, 0.7);
+	background: rgba(243, 251, 244, 0.7);
 	box-shadow: var(--shadow-soft);
 	color: var(--text-strong);
 	font-family: var(--font-display);
@@ -101,7 +101,7 @@ a {
 	padding: 0.45rem;
 	border: 1px solid var(--border-soft);
 	border-radius: 999px;
-	background: rgba(255, 250, 242, 0.75);
+	background: rgba(247, 254, 248, 0.75);
 	box-shadow: var(--shadow-soft);
 }
 
@@ -119,7 +119,7 @@ a {
 
 .site-nav a:hover,
 .site-nav a:focus-visible {
-	background: rgba(241, 90, 41, 0.12);
+	background: rgba(47, 158, 95, 0.12);
 	color: var(--text-strong);
 	transform: translateY(-1px);
 }
@@ -175,7 +175,7 @@ a {
 .pill {
 	display: inline-flex;
 	align-items: center;
-	border: 1px solid rgba(141, 63, 45, 0.14);
+	border: 1px solid rgba(37, 96, 70, 0.14);
 	border-radius: 999px;
 	background: rgba(255, 255, 255, 0.65);
 	padding: 0.6rem 0.95rem;
@@ -200,8 +200,8 @@ a {
 }
 
 .button-primary {
-	background: linear-gradient(135deg, var(--accent-coral), #ff7e36);
-	box-shadow: 0 14px 26px rgba(241, 90, 41, 0.25);
+	background: linear-gradient(135deg, var(--accent-coral), #59b976);
+	box-shadow: 0 14px 26px rgba(47, 158, 95, 0.25);
 	color: white;
 }
 
@@ -236,9 +236,9 @@ a {
 }
 
 .content-card--contrast {
-	border-color: rgba(255, 247, 236, 0.12);
+	border-color: rgba(243, 251, 244, 0.12);
 	background:
-		radial-gradient(circle at top right, rgba(242, 163, 60, 0.18), transparent 35%),
+		radial-gradient(circle at top right, rgba(140, 207, 122, 0.18), transparent 35%),
 		linear-gradient(180deg, #1b1530 0%, #2a1d45 100%);
 }
 
@@ -254,7 +254,7 @@ a {
 	right: 2rem;
 	height: 7rem;
 	width: 7rem;
-	background: radial-gradient(circle, rgba(241, 90, 41, 0.95), rgba(241, 90, 41, 0.15));
+	background: radial-gradient(circle, rgba(47, 158, 95, 0.95), rgba(47, 158, 95, 0.15));
 }
 
 .orb-gold {
@@ -262,7 +262,7 @@ a {
 	left: 1rem;
 	height: 5rem;
 	width: 5rem;
-	background: radial-gradient(circle, rgba(242, 163, 60, 0.95), rgba(242, 163, 60, 0.12));
+	background: radial-gradient(circle, rgba(140, 207, 122, 0.95), rgba(140, 207, 122, 0.12));
 }
 
 .contact-grid {
@@ -301,8 +301,8 @@ a {
 .text-link:focus-visible,
 .site-nav a:focus-visible,
 .brand-mark:focus-visible {
-	border-color: rgba(241, 90, 41, 0.65);
-	box-shadow: 0 0 0 4px rgba(241, 90, 41, 0.16);
+	border-color: rgba(47, 158, 95, 0.65);
+	box-shadow: 0 0 0 4px rgba(47, 158, 95, 0.16);
 	outline: none;
 }
 
